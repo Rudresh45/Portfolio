@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rudresh N G | Python Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="top-bar">
+        <div class="container">
+            <div class="brand">
+                <span class="brand-accent">R</span>
+                <span class="brand-name">Rudresh N G</span>
+            </div>
+            <nav class="main-nav" id="mainNav">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <div class="hero-photo">
+                    <img src="assets/photo.png" alt="Portrait of Rudresh N G">
+                </div>
+                <div class="hero-text">
+                    <span class="hero-greeting">Hello!</span>
+                    <h1>
+                        I'm a <span class="highlight">Python Full Stack Developer</span> <br>
+                        crafting scalable products in <span class="highlight">Karnataka, India</span>
+                    </h1>
+                    <p>
+                        I help teams build robust backend services with Django and expressive interfaces with modern web technologies. Let's collaborate and transform ideas into impactful experiences.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn primary" href="#contact">Hire Me</a>
+                        <a class="btn ghost" href="#projects">My Work</a>
+                        <a class="btn ghost" href="https://github.com/Rudresh45" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container split">
+                <div class="section-heading">
+                    <span class="subtitle">About</span>
+                    <h2>About Me</h2>
+                    <p>
+                        I'm Rudresh, a developer with a passion for crafting full-stack web solutions. From designing RESTful backends in Django to building polished, accessible UIs with HTML, CSS, and JavaScript, I thrive on turning complex challenges into elegant user experiences.
+                    </p>
+                    <p>
+                        Outside of shipping features, I enjoy experimenting with automation scripts, contributing to open-source components, and mentoring peers on backend best practices.
+                    </p>
+                    <a class="btn primary" href="assets/Resume.pdf" download>Download Resume</a>
+                </div>
+                <div class="info-card">
+                    <ul>
+                        <li><span class="label">Name</span><span class="value">Rudresh N G</span></li>
+                        <li><span class="label">Location</span><span class="value">Davanagere, Karnataka</span></li>
+                        <li><span class="label">Email</span><span class="value"><a href="mailto:rudresh.ng.dev@gmail.com">rudreshng045@gmail.com</a></span></li>
+                        <li><span class="label">Phone</span><span class="value"><a href="tel:+919876543210">+91 8618462975</a></span></li>
+                        <li><span class="label">Freelance</span><span class="value">Available</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="education" id="education">
+            <div class="container">
+                <span class="subtitle">Education</span>
+                <h2>Education</h2>
+                <div class="education-card">
+                    <div class="period">2021 – 2025</div>
+                    <div class="details">
+                        <h3>Bachelor of Engineering in Computer Science</h3>
+                        <p class="institution">Visvesvaraya Technological University (VTU)</p>
+                        <p class="campus"> GM Institute of Technology , Davanagere</p>
+                        <p>
+                            Explored software engineering practices, data structures, and modern web technologies. Led multiple full-stack applications, integrating Django REST backends with interactive frontends.
+                        </p>
+                    </div>
+                    <a class="btn primary" href="assets/Resume.pdf" download>Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="container">
+                <div class="skills-header">
+                    <span class="subtitle">Skills</span>
+                    <h2>Technical Toolkit</h2>
+                    <p>Stacks and services I rely on to deliver responsive interfaces, dependable backends, and insightful tooling.</p>
+                </div>
+                <div class="skill-showcase">
+                    <div class="skill-board">
+                        <div class="skill-grid">
+                            <button class="skill-card" data-skill="html">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 logo">
+                                <span>HTML5</span>
+                            </button>
+                            <button class="skill-card" data-skill="css">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 logo">
+                                <span>CSS3</span>
+                            </button>
+                            <button class="skill-card" data-skill="js">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript logo">
+                                <span>JavaScript</span>
+                            </button>
+                            <button class="skill-card" data-skill="python">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python logo">
+                                <span>Python</span>
+                            </button>
+                            <button class="skill-card" data-skill="django">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django logo">
+                                <span>Django</span>
+                            </button>
+                            <button class="skill-card" data-skill="bootstrap">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap logo">
+                                <span>Bootstrap</span>
+                            </button>
+                            <button class="skill-card" data-skill="rest">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="REST API icon">
+                                <span>REST API</span>
+                            </button>
+                            <button class="skill-card" data-skill="postman">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman logo">
+                                <span>Postman</span>
+                            </button>
+                            <button class="skill-card" data-skill="mysql">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="MySQL logo">
+                                <span>MySQL</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="container">
+                <span class="subtitle">Projects</span>
+                <h2>Highlighted Projects</h2>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="project-tag">AI · Streamlit</div>
+                        <h3>Smart PDF Analyzer</h3>
+                        <p>AI-assisted research companion built with Python, Streamlit, LangChain, and OpenAI that lets users upload PDFs, ask contextual questions, and get instant answers pulled straight from the document.</p>
+                        <ul class="project-highlights">
+                            <li>Responsive sidebar UI for real-time conversations with PDFs</li>
+                            <li>Semantic search workflows that cut review time by 70%</li>
+                        </ul>
+                        <a href="https://github.com/Rudresh45/Smart-pdf-analyser" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-tag">Django · CRUD</div>
+                        <h3>Student Management System</h3>
+                        <p>Full-featured Django application using FBVs that manages student records with create, read, update, and delete operations backed by a reliable SQLite datastore.</p>
+                        <ul class="project-highlights">
+                            <li>Search, pagination, and dynamic tables for fast navigation</li>
+                            <li>SweetAlert2 confirmations and Bootstrap UI for polished UX</li>
+                        </ul>
+                        <a href="https://github.com/Rudresh45/student_management_system" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container cta-box">
+                <h2>I’m available for freelance and collaborations.</h2>
+                <p>Send a message and let's craft a solution that scales with your vision.</p>
+                <a class="btn primary" href="#contact">Start a Project</a>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <span class="subtitle">Contact</span>
+                <h2>Let’s build something amazing</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Contact Details</h3>
+                        <ul>
+                            <li><span class="label">Email</span><a href="mailto:rudresh.ng.dev@gmail.com">rudresh.ng.dev@gmail.com</a></li>
+                            <li><span class="label">Phone</span><a href="tel:+919876543210">+91 98765 43210</a></li>
+                            <li><span class="label">Location</span>Davanagere, Karnataka</li>
+                        </ul>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <input type="hidden" name="_subject" value="New inquiry from portfolio contact form">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_captcha" value="false">
+                        <div class="form-row">
+                            <input type="text" name="name" placeholder="Name" required>
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <input type="text" name="subject" placeholder="Subject" required>
+                        <textarea name="message" rows="5" placeholder="Message" required></textarea>
+                        <button type="submit" class="btn primary">Send Message</button>
+                        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo">R</div>
+                <div>
+                    <h3>Rudresh N G</h3>
+                    <p>Python full-stack developer crafting reliable backends and expressive interfaces for data-driven products.</p>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Navigate</h4>
+                <nav>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <ul>
+                    <li><span>Email</span><a href="mailto:rudreshng045@gmail.com">rudreshng045@gmail.com</a></li>
+                    <li><span>Phone</span><a href="tel:+918618462975">+91 86184 62975</a></li>
+                    <li><span>Location</span>Davanagere, Karnataka</li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="https://github.com/Rudresh45" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GH</a>
+                    <a href="mailto:rudreshng045@gmail.com" aria-label="Email">EM</a>
+                    <a href="https://www.linkedin.com/in/rudresh-ng" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">IN</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; <span id="year"></span> Rudresh N G. All rights reserved.</p>
+            <p>Designed and developed with precision in Karnataka, India.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
